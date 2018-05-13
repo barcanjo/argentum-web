@@ -108,6 +108,19 @@
 		</dependency>
 
 	</dependencies>
+	
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>LAPTOP-CS1KDGI1-releases</name>
+			<url>http://localhost:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>LAPTOP-CS1KDGI1-snapshots</name>
+			<url>http://localhost:8081/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<finalName>argentum-web</finalName>
